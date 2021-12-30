@@ -467,7 +467,7 @@ void reliable_data_transfer(int sockfd, struct sockaddr_in* client_address, char
 		 		-> In this implementation, window size is 8. Then, packet numbers follow 0, 1, 2, 3, 4, 5, 6, 7, ..., 14, 15, 0, 1, 2 ... ordering.
 			
 			- num_extra_messages = It is the count that shows how many messages has been recieved while delivering the current packet.
-				-> For example, Suppose we deliver the packages for message "I'm sleeping 4 hours for previous 3 days JUST BECAUSE OF NETWORK HOMEWORK!"
+				-> For example, Suppose we deliver the packages for message "I'm sleeping 4 hours for previous 4 days JUST BECAUSE OF NETWORK HOMEWORK!"
 			and meanwhile the user candy_girl2003 types "What a nice day!", this lovely message needs to be appended to queue on the purpose of 
 			delivering it after the current message delivered.
 
